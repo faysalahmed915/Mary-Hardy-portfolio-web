@@ -154,3 +154,47 @@ main {
     color: #757575;
     margin-top: 20px;
 }
+
+
+/* hiding item  */
+
+/* .hide {
+    display: none;
+}
+ */
+
+
+/* skill set styles */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-paragraph {
+    padding: 0 115px 50px;
+    text-align: center;
+    margin: none;
+}
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.skill-card-container {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid #FD6E0A;
+    width: 100%;
+}
+.skill-card { 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    }
