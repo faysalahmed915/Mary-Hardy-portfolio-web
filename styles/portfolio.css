@@ -11,9 +11,9 @@
 }
 
 .header {
- background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
- background-repeat: no-repeat;
- background-position: top left, bottom right;
+    background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 .secondary-bg {
@@ -59,6 +59,7 @@ nav ul li a {
 .dark-2 {
     color: #474747;
 }
+
 .dark-3 {
     color: #757575;
 }
@@ -70,7 +71,7 @@ nav ul li a {
     font-weight: bold;
     border: none;
     padding: 18px 35px;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 .btn-secondary {
@@ -80,13 +81,14 @@ nav ul li a {
     font-weight: bold;
     border: 2px solid #FD6E0A;
     padding: 18px 35px;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
 .section-title {
     font-size: 35px;
     font-weight: bold;
 }
+
 .section-description {
     font-size: 18px;
     color: #757575;
@@ -99,15 +101,16 @@ nav ul li a {
     margin: 0 30px 0 200px;
 }
 
-.banner-content {    
+.banner-content {
     display: ;
 }
-    
+
 .banner-greetings {
     font-size: 45px;
     font-weight: 600;
-    
+
 }
+
 .banner-name {
     font-size: 85px;
     font-weight: 700;
@@ -129,7 +132,7 @@ main {
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
-   }
+}
 
 
 /* Div styles */
@@ -140,14 +143,14 @@ main {
     margin-top: 50px;
 }
 
-.about-item {
-   
-}
+.about-item {}
+
 .item-title {
     font-size: 18px;
     margin-top: 20px;
     color: #474747;
 }
+
 .item-description {
     font-size: 18px;
     font-weight: bold;
@@ -177,6 +180,7 @@ main {
     text-align: center;
     margin: none;
 }
+
 .skill-title {
     font-size: 20px;
     font-weight: bold;
@@ -188,13 +192,26 @@ main {
     flex: wrap;
     justify-content: space-between;
     gap: 20px;
-    border: 2px solid #FD6E0A;
+    /* border: 2px solid #FD6E0A; */
     width: 100%;
 }
-.skill-card { 
+
+.skill-card {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
-    background-color: #FFF8F3;
+    background-color: white;
     border-radius: 5px;
-    }
+    /* box-shadow: 0 6px 50px black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* summary section style */
+
+
+.summary {
+    display: grid;
+    grid-template-columns: 2;
+}
